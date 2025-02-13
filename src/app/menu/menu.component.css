@@ -3,8 +3,8 @@
    }
    
    mat-toolbar {
-     background: #24ed85; /* Cor de fundo */
-     color: rgb(252, 252, 252); /* Cor do texto */
+     background: #24ed85; 
+     color: rgb(252, 252, 252); 
    }
    
    .spacer {
@@ -13,11 +13,11 @@
    
  button.mat-icon-button {
      display: flex;
-     color: white !important; /* Cor do ícone */
-     background-color: white !important; /* Cor de fundo */
-     border: 1px solid #0882fc !important; /* Adiciona uma borda azul */
-     border-radius: 50% !important; /* Tornar o botão circular, se desejado */
-     margin: 0 10px !important; /* Espaçamento horizontal entre os botões */
+     color: white !important;
+     background-color: white !important;
+     border: 1px solid #0882fc !important; 
+     border-radius: 50% !important; 
+     margin: 0 10px !important; 
  }
  
  
@@ -26,8 +26,8 @@
    
    .example-full-width {
      margin-left: 200px;
-     width: 305px; /* Ajuste o tamanho conforme necessário */
-     margin-right: 100px; /* Espaçamento entre o campo de busca e os botões */
+     width: 305px; 
+     margin-right: 100px; 
    }
    
    .product-container {
@@ -59,7 +59,7 @@
    }
    
    .content {
-     min-height: calc(100vh - 64px); /* Ajuste o valor conforme a altura do rodapé */
+     min-height: calc(100vh - 64px); 
    }
    
   
@@ -130,23 +130,23 @@
   .offers h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #3f51b5; /* Cor primária do Angular Material */
+    color: #3f51b5; 
   }
   
   /* Estilo para os cartões do Angular Material */
   mat-card {
     margin: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra leve para os cartões */
-    width: 100%; /* Garante que os cartões usem toda a largura disponível */
-    max-width: 280px; /* Define uma largura máxima confortável para os cartões */
-    flex: 1 1 calc(33.333% - 1rem); /* Flex-grow, flex-shrink, flex-basis */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    width: 100%; 
+    max-width: 280px;
+    flex: 1 1 calc(33.333% - 1rem); 
   }
   
   mat-card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #3f51b5; /* Cor primária do Angular Material */
+    color: #3f51b5; 
   }
   
   mat-card-content {
@@ -163,20 +163,19 @@
   mat-card button {
     margin-top: 1rem;
     color: #fff;
-    background-color: #007bff; /* Cor do botão */
+    background-color: #007bff;
     transition: background-color 0.3s ease;
   }
   
   mat-card button:hover {
-    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    background-color: #0056b3;
   }
   
-  /* Estilo para os ícones dos botões */
   mat-icon {
-    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+    margin-right: 5px; 
   }
   
-  /* Estilo para os controles do carousel */
+
   .carousel-control-prev,
   .carousel-control-next {
     width: 5%;
@@ -188,7 +187,6 @@
     border-radius: 50%;
   }
   
-  /* Imagem fluida */
   .img-fluid {
     max-width: 100%;
     height: auto;
