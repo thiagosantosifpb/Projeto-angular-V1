@@ -17,11 +17,13 @@ import { ListaProdutoModule } from './lista-produto/lista-produto.module';
 import { ListagemProdutoComponent } from './lista-produto/listagem-produto/listagem-produto.component'; 
 import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

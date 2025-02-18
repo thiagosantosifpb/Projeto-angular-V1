@@ -1,194 +1,67 @@
-.btn-container {
-    width: 100px;
-   }
-   
-   mat-toolbar {
-     background: #24ed85; 
-     color: rgb(252, 252, 252); 
-   }
-   
-   .spacer {
-     flex: 1 1 auto;
-   }
-   
- button.mat-icon-button {
-     display: flex;
-     color: white !important;
-     background-color: white !important;
-     border: 1px solid #0882fc !important; 
-     border-radius: 50% !important; 
-     margin: 0 10px !important; 
- }
- 
- 
- 
- 
-   
-   .example-full-width {
-     margin-left: 200px;
-     width: 305px; 
-     margin-right: 100px; 
-   }
-   
-   .product-container {
-     margin-top: 30%;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-   }
-   
-   .product-card {
-     width: 300px;
-     margin: 10px;
-   }
-   
-   mat-card {
-     background-color: #f5f5f5;
-     border: 1px solid #ddd;
-     border-radius: 8px;
-   }
-   
-   mat-card-title {
-     font-weight: bold;
-     text-align: center;
-   }
-   
-   img {
-     height: 200px;
-     object-fit: cover;
-   }
-   
-   .content {
-     min-height: calc(100vh - 64px); 
-   }
-   
-  
-   
-   .example-card {
-     width: 300px;
-     margin: 10px;
-     border: 1px solid #ddd;
-     border-radius: 8px;
-     background-color: #fff;
-   }
-   
-   .example-header-image {
-     background-image: url('https://path-to-your-avatar-image.jpg');
-     background-size: cover;
-     border-radius: 50%;
-   }
-   
- 
-   .container {
-     margin: 20px;
-   }
-   
-   .full-width {
-     width: 20%;
-   }
-   
-   .product-list {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 16px;
-   }
-   
-   .product-card {
-     flex: 1 1 calc(33.333% - 16px);
-     box-sizing: border-box;
-   }
-   
-/* Container principal para a margem geral */
-.container {
-    margin: 2rem auto;
-  }
-  
-  /* Estilo para a seção de boas-vindas */
-  .text-center {
-    text-align: center;
-  }
-  
-  /* Espaçamento inferior */
-  .mb-4 {
-    margin-bottom: 1.5rem;
-  }
-  
-  .mb-5 {
-    margin-bottom: 3rem;
-  }
-  
-  /* Imagem da seção */
-  .image-vertical-space img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Estilo para o título das ofertas especiais */
-  .offers h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #3f51b5; 
-  }
-  
-  /* Estilo para os cartões do Angular Material */
-  mat-card {
-    margin: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
-    width: 100%; 
-    max-width: 280px;
-    flex: 1 1 calc(33.333% - 1rem); 
-  }
-  
-  mat-card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #3f51b5; 
-  }
-  
-  mat-card-content {
-    text-align: center;
-  }
-  
-  mat-card img {
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  /* Estilo para os botões do Angular Material */
-  mat-card button {
-    margin-top: 1rem;
-    color: #fff;
-    background-color: #007bff;
-    transition: background-color 0.3s ease;
-  }
-  
-  mat-card button:hover {
-    background-color: #0056b3;
-  }
-  
-  mat-icon {
-    margin-right: 5px; 
-  }
-  
+header {
+  background-color:#24ed85; 
+  color: white;
+   padding: 50px;
+}
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 5%;
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-  }
-  
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-  }
-  
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #24ed85; 
+  color: white;
+}
+
+mat-menu {
+  background-color: #ffffff;
+}
+
+.mat-menu-item {
+  color: #24ed85; 
+}
+
+.mat-menu-item:hover {
+  background-color: #e0e0e0;
+}
+
+.example-full-width {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.mat-icon-button {
+  margin-left: 10px;
+  color: white;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-form-field-underline {
+  background-color: #ffffff;
+}
+
+.mat-form-field-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.mat-form-field input {
+  color: white;
+}
+
+.mat-form-field mat-icon {
+  color: white;
+}
+
+.mat-form-field .mat-form-field-suffix .mat-icon-button {
+  color: white;
+}
+
+
+
