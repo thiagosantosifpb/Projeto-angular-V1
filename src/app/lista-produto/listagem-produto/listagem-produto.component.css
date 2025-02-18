@@ -1,4 +1,3 @@
-/* Centralizar o container */
 .container {
     max-width: 500px;
     margin: 50px auto;
@@ -8,21 +7,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Estilizar o título */
   h1, h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
   }
   
-  /* Ajustar campos de formulário */
   mat-form-field {
     width: 100%;
     display: block;
     margin-bottom: 15px;
   }
   
-  /* Estilizar o botão */
   button {
     display: block;
     width: 100%;
@@ -32,7 +28,6 @@
     border-radius: 4px;
   }
   
-  /* Estilizar a lista de produtos */
   .product-list {
     display: flex;
     flex-direction: column;
